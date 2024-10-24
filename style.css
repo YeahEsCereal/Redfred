@@ -1,0 +1,135 @@
+* {
+    font-family: 'CasCadia Code', 'Arial', 'sans-serif';
+    transition: all 0.1s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    flex-direction: column;
+    gap: 20px
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.dealer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.playerCard {
+    width: 20vw;
+    height: 25vh;
+    border-radius: 20px;
+    border: solid;
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(160, 160, 160);
+    border-width: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25vh;
+    font-size: clamp(1.5vw, 3vw, 3vw);
+    box-shadow: 5px 5px 0 2px rgb(20, 31, 15);
+}
+
+.dealerCard {
+    width: 20vw;
+    height: 25vh;
+    border-radius: 20px;
+    border: solid;
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(160, 160, 160);
+    border-width: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25vh;
+    font-size: clamp(1.5vw, 3vw, 3vw);
+    box-shadow: 5px 5px 0 2px rgb(20, 31, 15);
+}
+
+.extraCard {
+    width: 20vw;
+    height: 25vh;
+    border-radius: 20px;
+    border: solid;
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(160, 160, 160);
+    border-width: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25vh;
+    font-size: clamp(1.5vw, 3vw, 3vw);
+    box-shadow: 5px 5px 0 2px rgb(20, 31, 15);
+}
+
+.secretCard {
+    width: 20vw;
+    height: 25vh;
+    border-radius: 20px;
+    border: solid;
+    background-color: rgb(54, 54, 54);
+    border-color: rgb(31, 31, 31);
+    border-width: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25vh;
+    font-size: clamp(1.5vw, 3vw, 3vw);
+    box-shadow: 5px 5px 0 2px rgb(20, 31, 15);
+    color: rgb(194, 194, 194);
+}
+
+.revealCard {
+    width: 20vw;
+    height: 25vh;
+    border-radius: 20px;
+    border: solid;
+    background-color: rgb(54, 54, 54);
+    border-color: rgb(31, 31, 31);
+    border-width: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25vh;
+    font-size: clamp(1.5vw, 3vw, 3vw);
+    box-shadow: 5px 5px 0 2px rgb(20, 31, 15);
+    color: rgb(194, 194, 194);
+}
+
+.w {
+    font-size: clamp(1.5vw, 3vw, 3vw);
+}
+
+button {
+    width: 10vw;
+    height: 10vh;
+    border-radius: 20px;
+    border: solid;
+    border-width: 10px;
+    box-shadow: 5px 5px 0 2px rgb(20, 31, 15);
+    font-size: large;
+}
+
+button:hover {
+    filter: contrast(60%);
+}
+
+button:active {
+    transform: translate(5px, 5px);
+    box-shadow: 0 0 0 0 rgb(20, 31, 15);
+}
+
+#hit {
+    background-color: rgb(115, 230, 69);
+    border-color: rgb(100, 196, 68);
+}
+
+#stay {
+    background-color: rgb(231, 181, 64);
+    border-color: rgb(198, 139, 66);
+}
